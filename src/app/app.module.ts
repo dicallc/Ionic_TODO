@@ -8,7 +8,6 @@ import {MyApp} from './app.component';
 import {HomePage} from '../pages/home/home';
 import {AddItemPage} from '../pages/add-item-page/add-item-page';
 import {ItemDetailPage} from '../pages/item-detail-page/item-detail-page';
-import {Splash} from '../pages/splash/splash';
 import { IonicStorageModule } from '@ionic/storage';
 import {Data} from '../providers/data';
 @NgModule({
@@ -17,7 +16,6 @@ import {Data} from '../providers/data';
     HomePage,
     AddItemPage,
     ItemDetailPage,
-    Splash,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +29,6 @@ import {Data} from '../providers/data';
     HomePage,
     AddItemPage,
     ItemDetailPage,
-    Splash
   ],
   providers: [
     Data,
